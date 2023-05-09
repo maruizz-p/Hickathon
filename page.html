@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Absence management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to absence management page!</h1>
+    <!-- Aquí puedes agregar un menú de navegación si lo deseas -->
+  </header>
+
+<main>
+  <section id="login-page">
+    <h2>Sign up</h2>
+    <form>
+      <label for="username">Nombre de usuario:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <button type="submit">Iniciar sesión</button>
+    </form>
+  </section>
+  
+  <section id="request-page">
+    <h2>Solicitud de Ausencia</h2>
+    <form>
+      <label for="type">Tipo de Ausencia:</label>
+      <select id="type" name="type">
+        <option value="vacation">Vacaciones</option>
+        <option value="sick">Enfermedad</option>
+        <option value="personal">Personal</option>
+      </select>
+      
+      <label for="start-date">Fecha de Inicio:</label>
+      <input type="date" id="start-date" name="start-date" required>
+      
+      <label for="end-date">Fecha de Fin:</label>
+      <input type="date" id="end-date" name="end-date" required>
+      
+      <button type="submit">Enviar Solicitud</button>
+    </form>
+  </section>
+</main>
+  <footer>
+    <p>Derechos de autor &copy; 2023 | Mi Aplicación de Gestión de Ausencias</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
