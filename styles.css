@@ -1,0 +1,56 @@
+/* Estilos para el encabezado */
+header {
+  background-color: #e9a10483;
+  color: #000000;
+  padding: 20px;
+}
+
+/* Estilos para el contenido principal */
+main {
+  padding: 20px;
+  background-color: #f3b600; /* Cambia el color de fondo aquí */
+}
+
+/* Estilos para las secciones de páginas */
+section {
+  margin-bottom: 20px;
+}
+
+/* Estilos para los títulos de sección */
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para los formularios */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+/* Estilos para las etiquetas de los campos de formulario */
+label {
+  margin-bottom: 5px;
+}
+
+/* Estilos para los campos de formulario */
+input, select {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+/* Estilos para el botón de enviar */
+button[type="submit"] {
+  background-color: #ff7700;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #ffa200;
+}
+
+  
